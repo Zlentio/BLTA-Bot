@@ -5,7 +5,7 @@ var client = new Discord.Client();
 const sql = require("sqlite");
 sql.open("./score.sqlite");
 
-client.login("MzkzMzc5OTg0MzMwNDU3MDk4.DR07TQ.H17b5_GQWWs8XHedcNp_WPLS55g", output);
+client.login("", output);
 
 function output(error, token) {
     if (error) {
